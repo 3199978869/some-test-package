@@ -1,0 +1,31 @@
+{
+  "name": "some-test-package",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "files": [
+    "package.json",
+    "README.md",
+    "LICENSE",
+    "index.js"
+  ],
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/3199978869/some-test-package.git"
+  },
+  "keywords": [
+    "test"
+  ],
+  "author": "3199978869",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/3199978869/some-test-package/issues"
+  },
+  "homepage": "https://github.com/3199978869/some-test-package#readme",
+  "devDependencies": {
+    "jest": "^27.2.5"
+  }
+}
