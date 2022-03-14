@@ -34,13 +34,13 @@ jobs:
           # Set an input directory for deployment.
           publish_dir: docs
           # Set an destination subdirectory for deployment.
-          destination_dir: /
+          destination_dir: .
           # If existing files in the publish branch should be not removed before deploying
           keep_files: false
           # Keep only the latest commit on a GitHub Pages branch
           force_orphan: false
           # Set tag message
-          tag_message: # optional
+          #tag_message: # optional
           # Enable the GitHub Pages built-in Jekyll
           enable_jekyll: true
           # An alias for enable_jekyll to disable adding .nojekyll file to master or gh-pages branches
