@@ -24,7 +24,7 @@ jobs:
         uses: peaceiris/actions-gh-pages@v3.7.3
         with:
           # Set a SSH private key from repository secret value for pushing to the remote branch.
-          # deploy_key: # optional
+          deploy_key: ${{ secrets.GH_PAGES_SECRET }}
           # Set a generated GITHUB_TOKEN for pushing to the remote branch.
           # github_token: # optional
           # Set a personal access token for pushing to the remote branch.
